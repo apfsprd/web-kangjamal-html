@@ -14,6 +14,9 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=DM+Sans|Fira+Sans:700i&display=swap" rel="stylesheet">
 
+    <!-- AOS ANIMATE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FAVICON -->
     <link rel="shortcut icon" href="img/j-logo.png">
 
@@ -24,18 +27,18 @@
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/j-logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="#">Beranda</a>
-                <a class="nav-item nav-link" href="#biografi">Biografi</a>
-                <a class="nav-item nav-link" href="#pend">Pendidikan</a>
-                <a class="nav-item nav-link" href="#plmn">Pengalaman</a>
-            </div>
-            </div>
+                    <a class="navbar-brand" href="#"><img src="img/j-logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#">Beranda</a>
+                        <a class="nav-item nav-link" href="#biografi">Biografi</a>
+                        <a class="nav-item nav-link" href="#pend">Pendidikan</a>
+                        <a class="nav-item nav-link" href="#plmn">Pengalaman</a>
+                    </div>
+                    </div>
         </div>
     </nav>
     <!-- /NAVBAR -->
@@ -44,25 +47,45 @@
     <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 sm-12 panel">
+            <div class="col-lg-6 sm-12 panel" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
                 <h1 class="display-4">Jamaludin Bin H Muldan</h1>
                 <p class="lead text-secondary">Muda &centerdot; Berani &centerdot; Berwawasan</p>
                 <a href="https://www.facebook.com/Jamaludin-SE-Untuk-Desa-Kemuning-580047295821153/" class="btn btn-sm btn-outline-danger" title="Untuk Kemuning lebih baik" target="blank" >DUKUNG</a>
                 <br>
-                <a href="https://www.instagram.com/zamaludinb/" target="blank"><img src="img/instagram.png" title="@zamaludinbh"></a>
+                <a href="https://www.instagram.com/infokangjamal/" target="blank"><img src="img/instagram.png" title="@infokangjamal"></a>
                 <a href="https://www.facebook.com/jamaludinBantenutara" target="blank"><img src="img/facebook.png" title="Akang Jamaludin" target="blank"></a>
                 <a href="https://twitter.com/jamalud42695651" target="blank"><img src="img/twitter.png" title="Jamaludin" target="blank"></a>
-                <a href="https://www.youtube.com/channel/UCgR7zKqG4SEL_x6nE4nMAOg" target="blank"><img src="img/youtube(1).png" title="Jamaludin" target="blank"></a>
+                <a href="https://www.youtube.com/channel/UCg1PdKANn2YfPQIzxGKgP4w" target="blank"><img src="img/youtube(1).png" title="Kang Jamaludin" target="blank"></a>
             </div>
-            <div class="col-lg-4 sm-12">
-                <img src="img/home2.jpg" title="Kang Jamal untuk Kemuning">
+            <div class="col-lg-6 sm-12">
+                <img src="img/hitam-untukweb2.png" title="Kang Jamal untuk Kemuning">
             </div>
         </div>
     </div>
     </div>
 
-    <hr>
     <!-- /JUMBOTRON -->
+
+    <!-- SECTION VIDEO DAN GABUNG BAJA -->
+    <section id="video">
+        <div class="container">
+            <div class="row video">
+                <div class="col-lg-6 sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QY1A6LCC7tc" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-12">
+                    <p style="text-align: justify;"><span>Desa kemuning</span> sudah banyak tertinggal dibanding desa-desa lain dengan berbagai macam permasalahan yang ada. Mengeluh 
+                        bukanlah sebuah solusi, sudah saatnya perubahan! suara kita menentukan 6 tahun kedepan, mari bergabung di <span>Barisan Jamaludin (BAJA)
+                        untuk Kemuning BARU.</span>
+                    </p>
+                    <a href="https://bit.ly/gabungbaja" class="btn btn-lg btn-outline-danger" title="Untuk Kemuning BARU" target="blank" >GABUNG</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION VIDEO DAN GABUNG BAJA -->
 
     <!-- BIOGRAFI -->
     <section id="biografi" class="biografi">
@@ -174,5 +197,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- AOS ANIMATE JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
   </body>
 </html>

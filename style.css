@@ -51,6 +51,19 @@
 .jumbotron img {
     width: 100%;
 }
+
+/* =============================================== SECTION VIDEO */
+.video {
+    margin-top: 100px;
+}
+
+.video p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* =============================================== Biografi */
+
+
 /* =============================================== Biografi */
 
 .biografi {
@@ -397,18 +410,19 @@
     .jumbotron {
         background-color: white;
         height: 650px;
-        margin-top: 50px;
+        margin-top: 0px;
+        padding-left: 100px;
     }
 
 
     .jumbotron h1{
         color: darkred;
-        margin-top: 70px;
-        font-size: 64px;
+        margin-top: 170px;
+        font-size: 47px;
     }
 
     .jumbotron p{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .jumbotron .panel img{
@@ -419,7 +433,16 @@
     }
 
     .jumbotron img {
-        width: 100%;
+        width: 400px;
+    }
+    /* =============================================== SECTION VIDEO */
+    .video {
+        margin-top: 100px;
+    }
+
+    .video p{
+        margin-top: 30px;
+        font-size: 20px;
     }
     /* =============================================== Biografi */
 
