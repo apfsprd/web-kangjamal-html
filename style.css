@@ -1,0 +1,559 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* =============================================== Navbar */
+
+.navbar-brand {
+    font-weight: bold;
+    color: darkred !important;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.nav-link {
+    font-size: 5vw;
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/* =============================================== Jumbotron */
+.jumbotron {
+    background-color: white;
+    height: 650px;
+    margin-top: 50px;
+}
+
+
+.jumbotron h1{
+    color: darkred;
+    margin-top: 15px;
+    font-size: 7vw;
+}
+
+.jumbotron p{
+    font-size: 5vw;
+}
+
+.jumbotron .panel img{
+    width: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+/* =============================================== Biografi */
+
+.biografi {
+    margin-top: 150px;
+}
+
+.biografi #judul{
+    font-size: 15vw;
+    margin-bottom: 50px;
+}
+
+.biografi .gambar img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.biografi .info h1{
+    color: darkred;
+    margin-top: 30px;
+    font-size: 7vw;
+}
+
+.biografi .info h3 {
+    font-size: 5vw;
+}
+
+.biografi .info h4 {
+    font-size: 5vw;
+    text-align: justify;
+}
+
+.biografi .info img{
+    width: 10vw;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+/* =============================================== Pendidikan */
+
+.pend {
+    margin-top: 150px; 
+}
+
+.pend #judul{
+    font-size: 10vw;
+    margin-bottom: 30px;
+}
+
+.pend img{
+    width: 100%;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.pend h2 {
+    font-size: 6vw;
+}
+
+.pend h6 {
+    font-size: 3vw;
+}
+
+.pend h3 {
+    font-size: 5vw;
+}
+
+/* =============================================== Pengalaman */
+
+.plmn {
+    margin-top: 150px; 
+}
+
+.plmn #judul{
+    font-size: 10vw;
+}
+
+.plmn #subjudul{
+    font-size: 7vw;
+    margin-bottom: 50px;
+}
+
+.plmn img{
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 10%;
+}
+
+.plmn h2{
+    font-size: 6vw;
+}
+
+.plmn h5{
+    font-size: 4vw;
+}
+
+
+.kerja {
+    margin-top: 150px; 
+}
+
+.kerja #judul{
+    font-size: 10vw;
+}
+
+.kerja #subjudul{
+    font-size: 7vw;
+    margin-bottom: 30px;
+}
+
+.kerja img{
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.kerja h2{
+    font-size: 7vw;
+}
+
+.kerja h5 {
+    font-size: 4vw;
+}
+
+
+/* =============================================== Pengalaman */
+
+.footer{
+    margin-top: 300px;
+}
+
+.footer p {
+    font-size: 3vw;
+    margin-top: 10px;
+}
+
+
+/* ============================================== TABLET VERSION */
+@media (min-width: 768px){
+    /* =============================================== Navbar */
+    .navbar-brand {
+        font-weight: bold;
+        color: darkred !important;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .navbar-brand img{
+        width: 50px;
+    }
+    
+    .nav-link {
+        font-size: 3vw;
+        margin-right: 32px;
+    }
+    
+    .nav-link:hover {
+        color: white !important;
+    }
+
+    /* =============================================== JUMBOTRON */
+    .jumbotron {
+        background-color: white;
+        height: 200vw;
+        margin-top: 100px;
+    }
+    
+    .jumbotron h1{
+        color: darkred;
+        margin-top: 15px;
+        font-size: 8vw;
+    }
+    
+    .jumbotron p{
+        font-size: 5vw;
+    }
+    
+    .jumbotron .panel img{
+        width: 5vw;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .jumbotron img {
+        width: 100%;
+    }
+    /* =============================================== Biografi */
+    .biografi {
+        margin-top: 150px;
+    }
+    
+    .biografi #judul{
+        font-size: 10vw;
+        margin-bottom: 100px;
+    }
+    
+    .biografi .gambar img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    
+    .biografi .info h1{
+        color: darkred;
+        margin-top: 30px;
+        font-size: 7vw;
+    }
+    
+    .biografi .info h3 {
+        font-size: 4vw;
+    }
+    
+    .biografi .info h4 {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .biografi .info img{
+        width: 5vw;
+        margin-top: 15px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    /* =============================================== Pendidikan */
+
+    .pend {
+        margin-top: 150px; 
+    }
+
+    .pend #judul{
+        font-size: 10vw;
+        margin-bottom: 100px;
+    }
+
+    .pend img{
+        width: 100%;
+        border-radius: 14px;
+        margin-top: 20px;
+    }
+
+    .pend h2 {
+        font-size: 5vw;
+    }
+
+    .pend h6 {
+        font-size: 2vw;
+    }
+
+    .pend h3 {
+        font-size: 5vw;
+    }
+    /* =============================================== Pengalaman */
+
+    .plmn {
+        margin-top: 150px; 
+    }
+
+    .plmn #judul{
+        font-size: 10vw;
+    }
+
+    .plmn #subjudul{
+        font-size: 5vw;
+        margin-bottom: 100px;
+    }
+
+    .plmn img{
+        width: 100%;
+        border-radius: 14px;
+        margin-bottom: 10%;
+    }
+
+    .plmn h2{
+        font-size: 5vw;
+    }
+
+    .plmn h5{
+        font-size: 3vw;
+    }
+
+
+    .kerja {
+        margin-top: 150px; 
+    }
+
+    .kerja #judul{
+        font-size: 10vw;
+    }
+
+    .kerja #subjudul{
+        font-size: 5vw;
+        margin-bottom: 100px;
+    }
+
+    .kerja img{
+        width: 100%;
+        border-radius: 14px;
+        margin-bottom: 10%;
+    }
+
+    .kerja h2{
+        font-size: 5vw;
+    }
+
+    .kerja h5 {
+        font-size: 3vw;
+    }
+
+
+    /* =============================================== Pengalaman */
+
+    .footer{
+        margin-top: 300px;
+    }
+
+    .footer p {
+        font-size: 2vw;
+    }
+
+}
+
+/* =============================================== DEKSTOP VERSION */
+@media (min-width: 992px){
+    /* =============================================== Navbar */
+
+    .navbar-brand {
+        font-weight: bold;
+        color: darkred !important;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .navbar-brand img{
+        width: 50px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin-right: 32px;
+    }
+
+    .nav-link:hover {
+        color: white !important;
+    }
+
+    /* =============================================== Jumbotron */
+    .jumbotron {
+        background-color: white;
+        height: 650px;
+        margin-top: 50px;
+    }
+
+
+    .jumbotron h1{
+        color: darkred;
+        margin-top: 70px;
+        font-size: 64px;
+    }
+
+    .jumbotron p{
+        font-size: 3vw;
+    }
+
+    .jumbotron .panel img{
+        width: 32px;
+        margin-top: 20px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+    }
+
+    .jumbotron img {
+        width: 100%;
+    }
+    /* =============================================== Biografi */
+
+    .biografi {
+        margin-top: 200px;
+    }
+
+    .biografi #judul{
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+
+    .biografi .gambar img{
+        width: 100%;
+        border-radius: 14px;
+    }
+
+    .biografi .info h1{
+        color: darkred;
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .biografi .info h3 {
+        font-size: 20px;
+    }
+
+    .biografi .info h4 {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .biografi .info img{
+        width: 32px;
+        margin-top: 15px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+    }
+    /* =============================================== Pendidikan */
+
+    .pend {
+        margin-top: 200px; 
+    }
+
+    .pend #judul{
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+
+    .pend img{
+        width: 100%;
+        border-radius: 14px;
+        margin-top: 30px;
+    }
+
+    .pend h2 {
+        font-size: 40px;
+    }
+
+    .pend h6 {
+        font-size: 15px;
+    }
+
+    .pend h3 {
+        font-size: 30px;
+    }
+
+    /* =============================================== Pengalaman */
+
+    .plmn {
+        margin-top: 150px; 
+    }
+
+    .plmn #judul{
+        font-size: 64px;
+    }
+
+    .plmn #subjudul{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .plmn img{
+        width: 90%;
+        border-radius: 14px;
+        margin-bottom: 10%;
+    }
+
+    .plmn h2{
+        font-size: 32px;
+    }
+
+    .plmn h5{
+        font-size: 15px;
+    }
+
+
+    .kerja {
+        margin-top: 150px; 
+    }
+
+    .kerja #judul{
+        font-size: 64px;
+    }
+
+    .kerja #subjudul{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .kerja img{
+        width: 100%;
+        border-radius: 14px;
+        margin-bottom: 30px;
+    }
+
+    .kerja h2{
+        font-size: 32px;
+    }
+
+    .kerja h5 {
+        font-size: 15px;
+    }
+
+
+    /* =============================================== Pengalaman */
+
+    .footer{
+        margin-top: 300px;
+    }
+
+    .footer p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+}
